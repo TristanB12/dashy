@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Dashy API
+  description: API for a dashboard app with services and widgets
+
+servers:
+  - url: https://dashyepitech.herokuapp.com/api
+
+paths:
+  /auth/signup:
+    post:
+      tags:
+        - Auth
+      summary: signup by email/password
+      description: Create a new user account if email is not already taken.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Auth'
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    Auth:
+      - title: email
+        type: string
