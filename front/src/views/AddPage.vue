@@ -55,7 +55,7 @@ import TheServicesAside from '@/components/TheServicesAside.vue';
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 10px;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 .header {
     position: relative;
