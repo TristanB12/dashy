@@ -1,5 +1,4 @@
 # <img src="/front/src/assets/logo.png" alt="Éditer sur GitLab" width="30x"/> Dashy
-![example workflow](https://github.com/EpitechPromo2024/B-DEV-500-RUN-5-1-dashboard-tristan.bourgeois/actions/workflows/main.yml/badge.svg)
 
   url: https://dashyepitech.herokuapp.com
 
