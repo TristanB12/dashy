@@ -16,5 +16,3 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: "dashyepitech"
           heroku_email: "tristan.bourgeois@epitech.eu"
-          appdir: "web"
-          usedocker: true
