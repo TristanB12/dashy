@@ -44,6 +44,7 @@ export default {
     mounted () {
         this.setAccessToken();
         this.setUserInfos();
+        console.log(process.env);
     },
     methods: {
         async setUserInfos() {
